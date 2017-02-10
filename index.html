@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>二手</title>
+    <link rel="stylesheet" href="./static/reset.css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/fastclick/1.0.0/fastclick.min.js"></script>
+	<script type="text/javascript">
+	(function(){
+		var _html = document.documentElement;
+    		_value = _html.getBoundingClientRect().width / 16;
+
+    	_html.style.fontSize = _value + 'px';
+
+	    if ('addEventListener' in document) {
+	        document.addEventListener('DOMContentLoaded', function() {
+	            FastClick.attach(document.body);
+	        }, false)
+	    }
+	}())
+	</script>
+  </head>
+  <body>
+    <router-view></router-view>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
