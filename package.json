@@ -1,8 +1,7 @@
 {
-  "name": "fe_bureng",
+  "name": "ershou",
   "version": "1.0.0",
-  "description": "bureng",
-  "author": "mennghao <296469203@qq.com>",
+  "description": "ershou",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

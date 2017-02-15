@@ -7,6 +7,8 @@ export default function (router) {
             component: (resolve) => {
                 require(['./views/index/app.vue'], resolve)
             }
-        }
+        },
+
+
     })
 }
