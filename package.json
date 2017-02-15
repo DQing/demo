@@ -12,7 +12,7 @@
   "dependencies": {
     "babel-runtime": "^6.0.0",
     "vue": "^1.0.21",
-    "vue-easy-slider": "^1.1.7",
+    "vue-easy-slider": "^1.2.3",
     "vue-resource": "^1.0.3",
     "vue-router": "^0.7.13",
     "vue-slider": "^1.1.1"
