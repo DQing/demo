@@ -8,6 +8,36 @@ export default function (router) {
                 require(['./views/index/app.vue'], resolve)
             }
         },
+        '/dailyUse': {
+            name: 'dailyUse',
+            component: (resolve) => {
+                require(['./views/goodsSort/dailyUse.vue'], resolve)
+            }
+        },
+        '/lease': {
+            name: 'lease',
+            component: (resolve) => {
+                require(['./views/goodsSort/lease.vue'], resolve)
+            }
+        },
+        '/books': {
+            name: 'books',
+            component: (resolve) => {
+                require(['./views/goodsSort/books.vue'], resolve)
+            }
+        },
+        '/digitalElectronics': {
+            name: 'digitalElectronics',
+            component: (resolve) => {
+                require(['./views/goodsSort/digitalElectronics.vue'], resolve)
+            }
+        },
+        '/others': {
+            name: 'others',
+            component: (resolve) => {
+                require(['./views/goodsSort/others.vue'], resolve)
+            }
+        },
 
 
     })

@@ -2,15 +2,15 @@
     <div class="content">
         <div id="sort">
             <div class="col col1">
-                <a href="#" class="good1">数码电子</a>
-                <a href="#" class="good2">生活用品</a>
+                <a  class="good1" v-link="{name:'digitalElectronics'}">数码电子</a>
+                <a  class="good2" v-link="{name:'dailyUse'}">生活用品</a>
             </div>
             <div class="col col2">
-                <a href="#" class="good3">租赁</a>
-                <a href="#" class="good4">其他</a>
+                <a  class="good3" v-link="{name:'lease'}">租赁</a>
+                <a  class="good4" v-link="{name:'others'}">其他</a>
             </div>
             <div class="col col3">
-                <a href="#" class="good5">书籍教材</a>
+                <a  class="good5" v-link="{name:'books'}">书籍教材</a>
             </div>
         </div>
         <div id="hotSale">
