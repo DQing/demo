@@ -50,6 +50,13 @@ export default function (router) {
                 require(['./views/index/app.vue'], resolve)
 
             }
+        },
+        '/lose': {
+            name: 'lose',
+            component: (resolve) => {
+                require(['./views/lose/app.vue'], resolve)
+
+            }
         }
     })
 }

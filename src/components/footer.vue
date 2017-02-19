@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <a href="#">二手市场</a>
-        <a href="#">失物拾物</a>
+        <a v-link="{name:'lose'}">失物拾物</a>
         <a href="#">我要发布</a>
         <a href="#">我的</a>
     </div>
