@@ -38,7 +38,18 @@ export default function (router) {
                 require(['./views/goodsSort/others.vue'], resolve)
             }
         },
+        '/app': {
+            name: 'app',
+            component: (resolve) => {
+                require(['./views/goodsInfo/app.vue'], resolve)
+            }
+        },
+        '/index': {
+            name: 'index',
+            component: (resolve) => {
+                require(['./views/index/app.vue'], resolve)
 
-
+            }
+        }
     })
 }

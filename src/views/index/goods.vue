@@ -16,11 +16,11 @@
         <div id="hotSale">
             <h2>热卖推荐</h2>
             <div class="book">
-                <img src="" alt="book1">
+                <a v-link="{name:'app'}"><img src="" alt="book1"></a>
                 <p><span>名称:高数</span><span>价格:99</span></p>
             </div>
             <div class="book">
-                <img src="" alt="book2">
+                <a v-link="{name:'app'}"><img src="" alt="book2"></a>
                 <p><span>名称:高数</span><span>价格:99</span></p>
             </div>
 
@@ -28,11 +28,11 @@
         <div id="new">
             <h2>最新上架</h2>
             <div class="book">
-                <img src="" alt="book1">
+                <a v-link="{name:'app'}"><img src="" alt="book1"></a>
                 <p><span>名称:高数</span><span>价格:99</span></p>
             </div>
             <div class="book">
-                <img src="" alt="book2">
+                <a v-link="{name:'app'}"><img src="" alt="book2"></a>
                 <p><span>名称:高数</span><span>价格:99</span></p>
             </div>
         </div>
