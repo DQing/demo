@@ -9,7 +9,7 @@
 </template>
 <style lang="less">
     .content {
-        width: 380px;
+        width: 415px;
         background-color: rgba(215, 215, 215, 1);
         .digshow{
             margin-top:120px;

@@ -9,8 +9,8 @@
 </template>
 <style lang="less">
     .app{
-        width: 380px;
-        background-color: gainsboro;
+        width: 415px;
+        background-color: rgba(215, 215, 215, 1);
     }
 
 </style>

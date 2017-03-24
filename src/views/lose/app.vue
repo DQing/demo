@@ -6,7 +6,7 @@
 </template>
 <style>
     .app{
-        width: 380px;
+        width: 415px;
         background-color: rgba(215, 215, 215, 1);
     }
 </style>

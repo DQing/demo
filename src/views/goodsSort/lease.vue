@@ -6,7 +6,7 @@
 </template>
 <style>
     .content {
-        width: 380px;
+        width: 415px;
         height: 618px;
         background-color: rgba(215, 215, 215, 1);
     }

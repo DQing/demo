@@ -2,15 +2,15 @@
     <div class="content">
         <div id="sort">
             <div class="col col1">
-                <a  class="good1" v-link="{name:'digitalElectronics'}">数码电子</a>
-                <a  class="good2" v-link="{name:'dailyUse'}">生活用品</a>
+                <a class="good1" v-link="{name:'digitalElectronics'}">数码电子</a>
+                <a class="good2" v-link="{name:'dailyUse'}">生活用品</a>
             </div>
             <div class="col col2">
-                <a  class="good3" v-link="{name:'lease'}">租赁</a>
-                <a  class="good4" v-link="{name:'others'}">其他</a>
+                <a class="good3" v-link="{name:'lease'}">租赁</a>
+                <a class="good4" v-link="{name:'others'}">其他</a>
             </div>
             <div class="col col3">
-                <a  class="good5" v-link="{name:'books'}">书籍教材</a>
+                <a class="good5" v-link="{name:'books'}">书籍教材</a>
             </div>
         </div>
         <div id="hotSale">
@@ -40,15 +40,24 @@
 </template>
 <style lang="less">
     .content {
-        margin: 20px 5px;
+        /*background-color: rgba(215, 215, 215, 1);*/
+        width: 415px;
+        margin-top: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
         #sort {
+            font-family: 'Arial Normal', 'Arial';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+            color: #333333;
             .col {
                 float: left;
                 a {
                     background-color: white;
                     display: block;
                     color: darkgray;
-                    width: 121px;
+                    width: 130px;
                     text-align: center;
                     border: 1px solid dimgray;
 

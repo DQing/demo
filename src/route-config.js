@@ -32,6 +32,7 @@ export default function (router) {
                 require(['./views/goodsSort/digitalElectronics.vue'], resolve)
             }
         },
+
         '/others': {
             name: 'others',
             component: (resolve) => {
@@ -55,6 +56,13 @@ export default function (router) {
             name: 'lose',
             component: (resolve) => {
                 require(['./views/lose/app.vue'], resolve)
+
+            }
+        },
+        '/publish': {
+            name: 'publish',
+            component: (resolve) => {
+                require(['./views/publish/app.vue'], resolve)
 
             }
         }

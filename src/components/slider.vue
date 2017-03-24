@@ -1,12 +1,22 @@
 <template>
-    <slider width="380px" height="240px"  :interval="1000" :speed="1000">
-        <slider-item :style="{ backgroundColor: '#3f51b5' }"></slider-item>
-        <slider-item :style="{ backgroundColor: '#eee' }"></slider-item>
-        <slider-item :style="{ backgroundColor: '#f44336' }"></slider-item>
-    </slider>
+    <div class="slider">
+        <slider  :interval="2000" :speed="2000" :indicators="center" :control-btn="false">
+            <slider-item ><img src="../assets/img/u40.jpg"></slider-item>
+            <slider-item ><img src="../assets/img/u42.jpg"></slider-item>
+            <slider-item ><img src="../assets/img/u44.jpg"></slider-item>
+            <slider-item ><img src="../assets/img/u46.jpg"></slider-item>
+        </slider>
+    </div>
 </template>
-<style>
-
+<style lang="less">
+    .slider {
+        width: 415px;
+        height:100px;
+        img{
+            width: 415px;
+            height: 230px;
+        }
+    }
 </style>
 <script>
     import {Slider, SliderItem} from 'vue-easy-slider'

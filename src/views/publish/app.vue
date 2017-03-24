@@ -1,27 +1,30 @@
 <template>
-    <div>
-        <header-component/>
-        <div>this is template body</div>
-        <other-component/>
+    <div class="app">
+        <ui-Header></ui-Header>
+        <add-Image></add-Image>
+        <ui-Content></ui-Content>
     </div>
 </template>
 <style>
-    body{
-        background-color:#ff0000;
+    .app {
+        width: 415px;
+        background-color: rgba(215, 215, 215, 1);
     }
 </style>
 <script>
-    import HeaderComponent from './components/header.vue'
-    import OtherComponent from './components/other.vue'
+    import uiHeader from './header.vue';
+    import addImage from './addImage.vue';
+    import  uiContent from './content.vue';
     export default{
         data(){
-            return{
-                msg:'hello vue'
+            return {
+                msg: 'hello vue'
             }
         },
-        components:{
-            'other-component':OtherComponent,
-            HeaderComponent,
+        components: {
+            uiHeader,
+            addImage,
+            uiContent
         }
     }
 </script>
