@@ -12,10 +12,10 @@ Vue.use(VueResource);
 
 // create router
 const router = new VueRouter({
-	hashbang: true,
-	history: false,
-	saveScrollPosition: true,
-	transitionOnLoad: true
+    hashbang: true,
+    history: false,
+    saveScrollPosition: true,
+    transitionOnLoad: true
 });
 
 // configure router
